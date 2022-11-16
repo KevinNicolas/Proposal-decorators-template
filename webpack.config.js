@@ -5,6 +5,7 @@ const distPath = "dist";
 
 module.exports = {
   mode: "development",
+  target: "node",
   entry: {
     app: ["@babel/polyfill", "./src/index.js"],
   },
